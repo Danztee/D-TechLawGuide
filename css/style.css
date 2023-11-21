@@ -129,6 +129,7 @@ figure {
   font-weight: bold;
   font-weight: 700;
   font-family: "Work Sans", Arial, sans-serif;
+  margin-left: -80px;
 }
 
 .ftco-nav #ftco-logo a {
@@ -314,6 +315,10 @@ figure {
 @media screen and (max-width: 992px) {
   .ftco-video {
     height: 450px;
+  }
+
+  #ftco-logo {
+    margin: 0px !important;
   }
 }
 
@@ -540,6 +545,7 @@ figure {
   #ftco-footer {
     padding: 3em 0;
   }
+
 }
 
 #ftco-counter {
@@ -1252,6 +1258,8 @@ figure {
 #ftco-footer .ftco-widget {
   margin-bottom: 30px;
 }
+
+
 
 @media screen and (max-width: 768px) {
   #ftco-footer .ftco-widget {
