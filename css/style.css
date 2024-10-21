@@ -553,6 +553,10 @@ figure {
   clear: both;
 }
 
+.hake-up {
+  margin-top: 112px !important;
+}
+
 .ftco-counters {
   padding: 3em 0;
   background-size: cover;
@@ -1230,6 +1234,82 @@ figure {
   #ftco-footer .ftco-footer-links {
     margin-bottom: 30px;
   }
+}
+
+.Resources-links{
+  list-style: none;
+  text-align: center;
+}
+
+.event-card .event-image{
+  background-image: url(/images/event1.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.event-card .event-image1{
+  background-image: url(/images/event2.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.event-card .event-image2{
+  background-image: url(/images/event3.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.event-card .event-image3{
+  background-image: url(/images/event4.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.event-card .event-image4{
+  background-image: url(/images/event5.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.event-card .event-image5{
+  background-image: url(/images/event6.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.event-card {
+  border: 4px solid whitesmoke;
+ margin-bottom: 40px;
+}
+
+.event-content {
+  padding: 20px;
+}
+
+.event-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black !important;
+}
+
+.event-card .event-content .date{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.event-card .event-content button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: #134e6f;
+}
+
+.event-card button a{
+  color: white;
 }
 
 #ftco-footer .ftco-footer-links li {
@@ -1929,6 +2009,9 @@ figure {
   list-style: none;
 }
 
+.Card-container{
+  display: flex ;
+}
 .comment-list li .vcard {
   width: 80px;
   float: left;
